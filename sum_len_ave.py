@@ -26,6 +26,12 @@ try:
 	while True:
 		num_input = input("Enter a number > ")
 		
+		#print(num_input)
+		
+		if num_input == 'done':
+		
+			break
+		
 		valid_num = int(num_input)
 		
 		num_list = []
@@ -39,11 +45,7 @@ try:
 			
 			average = sum_/count
 		
-		if valid_num == 0:
-			break
-	print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", average)
+	print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", round(average, 3))
 	
-		
-	#print(num_list_1)
 except:
 	print("Kindly enter a valid input 😐️ !")
