@@ -1,2 +1,2 @@
-# sum_count_average
-Sum the numbers, Count the numbers and do an average
+# Sum_Count_Average
+Sum the numbers, Count the numbers and do an Average
