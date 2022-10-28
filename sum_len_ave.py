@@ -10,16 +10,40 @@
 # This is a simple program meant to receive input numbers and do a sum of the numbers, count the numbers entered and do an average.
 # Use 'done' to escape or terminate the loop after which you should see your results diplayed.
 
-print("This is a simple program meant to receive input numbers and do a sum of the numbers entered, count the numbers entered and do an average.\n \n Use 'done' to escape or terminate the program after which you should see your results diplayed.\n Let's begin!")
+import math
 
-nun_input = input("Enter a number > ")
+print("\n This is a simple program meant to receive input numbers and do a sum of the numbers entered, count the numbers entered and do an average.\n\n Use 'done' to escape or terminate the program after which you should see your results diplayed.\n\n Let's begin!\n")
 
-'''
+
+
+
 try:
+		
+	sum_ = 0
 	
-	valid_num = float(num_input)
-	
-	num_list = []
+	count = 0
 	
 	while True:
-		if 
+		num_input = input("Enter a number > ")
+		
+		valid_num = int(num_input)
+		
+		num_list = []
+		
+		num_list.append(valid_num)
+		
+		for i in num_list:
+			count += 1
+			
+			sum_ += i
+			
+			average = sum_/count
+		
+		if vlaid_num == 0:
+			break
+	print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", average)
+	
+		
+	#print(num_list_1)
+except:
+	print("Kindly enter a valid input 😐️ !")
