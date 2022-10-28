@@ -17,35 +17,39 @@ print("\n This is a simple program meant to receive input numbers and do a sum o
 
 
 
-try:
 		
-	sum_ = 0
+sum_ = 0
 	
-	count = 0
+count = 0
 	
-	while True:
-		num_input = input("Enter a number > ")
+while True:
+	num_input = input("Enter a number > ")
 		
-		#print(num_input)
+	if num_input == 'done':
 		
-		if num_input == 'done':
-		
-			break
+		break
+	try:
 		
 		valid_num = int(num_input)
-		
-		num_list = []
-		
-		num_list.append(valid_num)
-		
-		for i in num_list:
-			count += 1
-			
-			sum_ += i
-			
-			average = sum_/count
-		
-	print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", round(average, 3))
 	
-except:
-	print("Kindly enter a valid input 😐️ !")
+	except:
+		
+		print("Enter a valid number!")
+		
+		continue
+			
+	num_list = []
+		
+	num_list.append(valid_num)
+		
+	for i in num_list:
+		count += 1
+			
+		sum_ += i
+			
+		average = sum_/count
+		
+print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", round(average, 3))
+	
+#except:
+	#print("Kindly enter a valid input 😐️ !")
