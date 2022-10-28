@@ -10,7 +10,7 @@
 # This is a simple program meant to receive input numbers and do a sum of the numbers, count the numbers entered and do an average.
 # Use 'done' to escape or terminate the loop after which you should see your results diplayed.
 
-import math
+
 
 print("\n This is a simple program meant to receive input numbers and do a sum of the numbers entered, count the numbers entered and do an average.\n\n Use 'done' to escape or terminate the program after which you should see your results diplayed.\n\n Let's begin!\n")
 
@@ -39,7 +39,7 @@ try:
 			
 			average = sum_/count
 		
-		if vlaid_num == 0:
+		if valid_num == 0:
 			break
 	print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", average)
 	
