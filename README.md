@@ -1,2 +1,6 @@
 # Sum_Count_Average
-Sum the numbers, Count the numbers and do an Average
+
+#### Usage :smiley:
+
+===> User is expected to enter a number(s).
+===> The program will basically sum up every number entered, count the numbers and do an average.
