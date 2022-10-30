@@ -28,7 +28,13 @@ while True:
 	except:
 		print("Enter a valid number!")
 		continue
-			
+	
+	sum_ += valid_num
+	
+	count += 1
+	
+	average = sum_/count
+	'''		
 	num_list = []	
 	num_list.append(valid_num)
 		
@@ -36,5 +42,5 @@ while True:
 		count += 1	
 		sum_ += i	
 		average = sum_/count
-		
+	'''	
 print("Total sum is ",sum_ ,"\nTotal number entered is : ", count, "\nThe average is : ", round(average, 3))
