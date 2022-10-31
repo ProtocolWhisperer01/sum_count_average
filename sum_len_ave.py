@@ -23,7 +23,7 @@ while True:
 	if num_input == 'done':
 		break
 	try:
-		valid_num = int(num_input)
+		valid_num = float(num_input)
 	
 	except:
 		print("Enter a valid number!")
